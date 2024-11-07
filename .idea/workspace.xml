@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter 1 - Python Basics/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/exitExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/fiveTimes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/guessTheNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/rpsGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/swordfish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/yourName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/yourName2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +40,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.exitExample.executor": "Run",
+    "Python.fiveTimes.executor": "Run",
+    "Python.guessTheNumber.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.rpsGame.executor": "Run",
+    "Python.swordfish.executor": "Run",
+    "Python.yourName.executor": "Run",
+    "Python.yourName2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
