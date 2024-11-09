@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/abcdCallStack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/globalStatement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/helloFunc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/helloFunc2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/localGlobalSameName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/magic8Ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/sameNameError.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/zeroDivide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/zigzag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/collatzSequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
