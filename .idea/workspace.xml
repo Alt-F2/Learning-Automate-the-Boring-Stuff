@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/exitExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/fiveTimes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/guessTheNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/rpsGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/swordfish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/yourName.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 2 - Flow Control/yourName2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/abcdCallStack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/globalStatement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/helloFunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/helloFunc2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/localGlobalSameName.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/magic8Ball.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/sameNameError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/zeroDivide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/zigzag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +42,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.abcdCallStack.executor": "Run",
     "Python.exitExample.executor": "Run",
     "Python.fiveTimes.executor": "Run",
+    "Python.globalStatement.executor": "Run",
     "Python.guessTheNumber.executor": "Run",
     "Python.hello.executor": "Run",
+    "Python.helloFunc.executor": "Run",
+    "Python.helloFunc2.executor": "Run",
+    "Python.localGlobalSameName.executor": "Run",
+    "Python.magic8Ball.executor": "Run",
     "Python.rpsGame.executor": "Run",
+    "Python.sameNameError.executor": "Run",
     "Python.swordfish.executor": "Run",
     "Python.yourName.executor": "Run",
     "Python.yourName2.executor": "Run",
+    "Python.zeroDivide.executor": "Run",
+    "Python.zigzag.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
