@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 3 - Functions/collatzSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/allMyCats1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/allMyCats2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/coinFlipStreaks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/commaCode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/conway.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/magic8Ball2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/myPets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/passingReference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +42,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.abcdCallStack.executor": "Run",
+    "Python.allMyCats1.executor": "Run",
+    "Python.allMyCats2.executor": "Run",
+    "Python.coinFlipStreaks.executor": "Run",
+    "Python.collatzSequence.executor": "Run",
+    "Python.commaCode.executor": "Run",
+    "Python.conway.executor": "Run",
     "Python.exitExample.executor": "Run",
     "Python.fiveTimes.executor": "Run",
     "Python.globalStatement.executor": "Run",
@@ -44,8 +57,12 @@
     "Python.helloFunc2.executor": "Run",
     "Python.localGlobalSameName.executor": "Run",
     "Python.magic8Ball.executor": "Run",
+    "Python.magic8Ball2.executor": "Run",
+    "Python.myPets.executor": "Run",
+    "Python.passingReference.executor": "Run",
     "Python.rpsGame.executor": "Run",
     "Python.sameNameError.executor": "Run",
+    "Python.ss.executor": "Run",
     "Python.swordfish.executor": "Run",
     "Python.yourName.executor": "Run",
     "Python.yourName2.executor": "Run",
