@@ -21,5 +21,39 @@ player2Pieces = {
 }
 
 # player 1 placement
-for i in range(64):
-    piece = input('Place piece ' + str(i))
+for i in range(16):
+    try:
+        print('Selectable Pieces:')
+        print(list(player1Pieces))
+        piece = input('Player 1! select a piece to place:')
+
+        if player1Pieces[piece] > 0:
+            player1Pieces[piece] -= 1
+
+        placement = input('Place a piece on the board:')
+        if chessBoard[placement] == '':
+            chessBoard[placement] = piece
+
+    except KeyError:
+        print("Invalid piece selected.")
+
+for i in range(16):
+    try:
+        print('Selectable Pieces:')
+        print(list(player2Pieces))
+        piece = input('Player 2! select a piece to place:')
+        if player2Pieces[piece] > 0:
+            player2Pieces[piece] -= 1
+
+        placement = input('Place a piece on the board:')
+        if chessBoard[placement] == '':
+            chessBoard[placement] = piece
+
+    except KeyError:
+        print("Invalid piece selected.")
+
+
+
+
+
+
