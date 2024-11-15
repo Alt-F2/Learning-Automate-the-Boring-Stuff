@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/allMyCats1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/allMyCats2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/coinFlipStreaks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/commaCode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/conway.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/magic8Ball2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/myPets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 4 - Lists/passingReference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/birthdays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/characterCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/chessDictionaryValidator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/prettyCharacterCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/ticTacToe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2oLnHA1Qj0eqX8CVG0rHy9xXIcI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,6 +41,8 @@
     "Python.abcdCallStack.executor": "Run",
     "Python.allMyCats1.executor": "Run",
     "Python.allMyCats2.executor": "Run",
+    "Python.birthdays.executor": "Run",
+    "Python.characterCount.executor": "Run",
     "Python.coinFlipStreaks.executor": "Run",
     "Python.collatzSequence.executor": "Run",
     "Python.commaCode.executor": "Run",
@@ -64,6 +63,7 @@
     "Python.sameNameError.executor": "Run",
     "Python.ss.executor": "Run",
     "Python.swordfish.executor": "Run",
+    "Python.ticTacToe.executor": "Run",
     "Python.yourName.executor": "Run",
     "Python.yourName2.executor": "Run",
     "Python.zeroDivide.executor": "Run",
