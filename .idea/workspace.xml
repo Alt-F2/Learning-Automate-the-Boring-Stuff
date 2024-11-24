@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/chessDictionaryValidator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/chessDictionaryValidator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 5 - Dictionaries and Structuring Data/fantasyGameInventory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Python.commaCode.executor": "Run",
     "Python.conway.executor": "Run",
     "Python.exitExample.executor": "Run",
+    "Python.fantasyGameInventory.executor": "Run",
     "Python.fiveTimes.executor": "Run",
     "Python.globalStatement.executor": "Run",
     "Python.guessTheNumber.executor": "Run",
