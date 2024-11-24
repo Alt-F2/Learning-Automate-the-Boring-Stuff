@@ -1,3 +1,6 @@
+import sys
+from operator import truediv
+
 chessBoard = {
     '8a':'', '8b':'', '8c':'', '8d':'', '8e':'', '8f':'', '8g':'', '8h':'',
     '7a':'', '7b':'', '7c':'', '7d':'', '7e':'', '7f':'', '7g':'', '7h':'',
@@ -9,50 +12,97 @@ chessBoard = {
     '1a':'', '1b':'', '1c':'', '1d':'', '1e':'', '1f':'', '1g':'', '1h':'' }
 
 player1Pieces = {
-    'pawn': 8,
-    'knight': 2, 'bishop': 2, 'rook': 2,
-    'queen': 1, 'king': 1
+    'wpawn': 1,
+    'wknight': 1, 'wbishop': 1, 'wrook': 1,
+    'wqueen': 1, 'wking': 1
 }
 
 player2Pieces = {
-    'pawn': 8,
-    'knight': 2, 'bishop': 2, 'rook': 2,
-    'queen': 1, 'king': 1
+    'bpawn': 1,
+    'bknight': 1, 'bbishop': 1, 'brook': 1,
+    'bqueen': 1, 'bking': 1
 }
 
-# player 1 placement
-for i in range(16):
-    try:
-        print('Selectable Pieces:')
-        print(list(player1Pieces))
-        piece = input('Player 1! select a piece to place:')
+stdPieces = {
+    'wpawn': 8,
+    'wknight': 2, 'wbishop': 2, 'wrook': 2,
+    'wqueen': 1, 'wking': 1,
+    'bpawn': 8,
+    'bknight': 2, 'bbishop': 2, 'brook': 2,
+    'bqueen': 1, 'bking': 1
+}
 
-        if player1Pieces[piece] > 0:
-            player1Pieces[piece] -= 1
+def isValidChessBoard(board, piece) -> bool:
+    total = sum(1 for v in board.values() if v == piece)
+    if total <= stdPieces.get(piece):
+        print("--Board is valid--")
+        return True
+    else:
+        print("--Board is invalid--")
+        return False
 
-        placement = input('Place a piece on the board:')
-        if chessBoard[placement] == '':
-            chessBoard[placement] = piece
+try:
+    # player 1 placement
+    count = 0
+    while count < 6:
+        try:
+            print("-Please place select a chess piece to place-")
+            print('Selectable Pieces:')
+            print(player1Pieces)
+            piece = input('Player 1! select a piece to place:')
 
-    except KeyError:
-        print("Invalid piece selected.")
+            if player1Pieces[piece] > 0:
+                placement = input('Place a piece on the board:')
+                if chessBoard[placement] == '':
+                    chessBoard[placement] = piece
+                    player1Pieces[piece] -= 1
+                    count += 1
+            else:
+                raise KeyError
 
-for i in range(16):
-    try:
-        print('Selectable Pieces:')
-        print(list(player2Pieces))
-        piece = input('Player 2! select a piece to place:')
-        if player2Pieces[piece] > 0:
-            player2Pieces[piece] -= 1
+        except KeyError:
+            print("Invalid piece or chessboard placement.")
 
-        placement = input('Place a piece on the board:')
-        if chessBoard[placement] == '':
-            chessBoard[placement] = piece
+    count = 0
+    while count < 6:
+        try:
+            print("-Please place select a chess piece to place-")
+            print('Selectable Pieces:')
+            print(player2Pieces)
+            piece = input('Player 2! select a piece to place:')
 
-    except KeyError:
-        print("Invalid piece selected.")
+            if player2Pieces[piece] > 0:
+                placement = input('Place a piece on the board:')
+                if chessBoard[placement] == '':
+                    chessBoard[placement] = piece
+                    player2Pieces[piece] -= 1
+                    count += 1
+            else:
+                raise KeyError
 
+        except KeyError:
+            print("Invalid piece or chessboard placement.")
 
+    print(chessBoard)
+
+    isValidChessBoard(chessBoard, 'wpawn')
+    isValidChessBoard(chessBoard, 'wknight')
+    isValidChessBoard(chessBoard, 'wbishop')
+    isValidChessBoard(chessBoard, 'wrook')
+    isValidChessBoard(chessBoard, 'wqueen')
+    isValidChessBoard(chessBoard, 'wking')
+    isValidChessBoard(chessBoard, 'wpawn')
+
+    isValidChessBoard(chessBoard, 'bpawn')
+    isValidChessBoard(chessBoard, 'bknight')
+    isValidChessBoard(chessBoard, 'bbishop')
+    isValidChessBoard(chessBoard, 'brook')
+    isValidChessBoard(chessBoard, 'bqueen')
+    isValidChessBoard(chessBoard, 'bking')
+    isValidChessBoard(chessBoard, 'bpawn')
+
+except KeyboardInterrupt:
+    sys.exit()
 
 
 
