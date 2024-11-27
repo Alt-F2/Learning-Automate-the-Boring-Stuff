@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/catnapping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/picnicTable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/validateInput.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/mclip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +56,7 @@
     "Python.localGlobalSameName.executor": "Run",
     "Python.magic8Ball.executor": "Run",
     "Python.magic8Ball2.executor": "Run",
+    "Python.mclip.executor": "Run",
     "Python.myPets.executor": "Run",
     "Python.passingReference.executor": "Run",
     "Python.picnicTable.executor": "Run",
