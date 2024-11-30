@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/mclip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/bulletPointAdder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/pigLat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +39,7 @@
     "Python.allMyCats1.executor": "Run",
     "Python.allMyCats2.executor": "Run",
     "Python.birthdays.executor": "Run",
+    "Python.bulletPointAdder.executor": "Run",
     "Python.catnapping.executor": "Run",
     "Python.characterCount.executor": "Run",
     "Python.chessDictionaryValidator.executor": "Run",
@@ -60,6 +62,7 @@
     "Python.myPets.executor": "Run",
     "Python.passingReference.executor": "Run",
     "Python.picnicTable.executor": "Run",
+    "Python.pigLat.executor": "Run",
     "Python.rpsGame.executor": "Run",
     "Python.sameNameError.executor": "Run",
     "Python.ss.executor": "Run",
