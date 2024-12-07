@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/bulletPointAdder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter 6 - Manipulating Strings/pigLat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 7 - Pattern Matching with Regular Expressions/isPhoneNumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +54,7 @@
     "Python.hello.executor": "Run",
     "Python.helloFunc.executor": "Run",
     "Python.helloFunc2.executor": "Run",
+    "Python.isPhoneNumber.executor": "Run",
     "Python.localGlobalSameName.executor": "Run",
     "Python.magic8Ball.executor": "Run",
     "Python.magic8Ball2.executor": "Run",
@@ -67,6 +67,7 @@
     "Python.sameNameError.executor": "Run",
     "Python.ss.executor": "Run",
     "Python.swordfish.executor": "Run",
+    "Python.tablePrinter.executor": "Run",
     "Python.ticTacToe.executor": "Run",
     "Python.validateInput.executor": "Run",
     "Python.yourName.executor": "Run",
