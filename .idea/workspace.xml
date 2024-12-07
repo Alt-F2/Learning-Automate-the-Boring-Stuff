@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 8 - Input Validation/sandwichMaker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 7 - Pattern Matching with Regular Expressions/dateDetection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,7 @@
     "Python.collatzSequence.executor": "Run",
     "Python.commaCode.executor": "Run",
     "Python.conway.executor": "Run",
+    "Python.dateDetection.executor": "Run",
     "Python.exitExample.executor": "Run",
     "Python.fantasyGameInventory.executor": "Run",
     "Python.fiveTimes.executor": "Run",
