@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a0a8cc-354f-4580-b10e-78d89136e3d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter 7 - Pattern Matching with Regular Expressions/isPhoneNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter 8 - Input Validation/sandwichMaker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
     "Python.pigLat.executor": "Run",
     "Python.rpsGame.executor": "Run",
     "Python.sameNameError.executor": "Run",
+    "Python.sandwichMaker.executor": "Run",
     "Python.ss.executor": "Run",
     "Python.swordfish.executor": "Run",
     "Python.tablePrinter.executor": "Run",
